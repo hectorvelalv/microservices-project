@@ -1,0 +1,10 @@
+/Users/hvelasco/Desktop/microservices-parent/inventory-service/src/main/java/com/microservices/inventory/InventoryApplication.java
+/Users/hvelasco/Desktop/microservices-parent/inventory-service/src/main/java/com/microservices/inventory/models/dtos/AvailableProductDto.java
+/Users/hvelasco/Desktop/microservices-parent/inventory-service/src/main/java/com/microservices/inventory/controllers/InventoryController.java
+/Users/hvelasco/Desktop/microservices-parent/inventory-service/src/main/java/com/microservices/inventory/services/IInventoryService.java
+/Users/hvelasco/Desktop/microservices-parent/inventory-service/src/main/java/com/microservices/inventory/services/InventoryServiceImpl.java
+/Users/hvelasco/Desktop/microservices-parent/inventory-service/src/main/java/com/microservices/inventory/exceptions/advices/ProductAvailableIdNotFoundAdvice.java
+/Users/hvelasco/Desktop/microservices-parent/inventory-service/src/main/java/com/microservices/inventory/mappers/AvailableProductMapper.java
+/Users/hvelasco/Desktop/microservices-parent/inventory-service/src/main/java/com/microservices/inventory/exceptions/ProductAvailableIdNotFoundException.java
+/Users/hvelasco/Desktop/microservices-parent/inventory-service/src/main/java/com/microservices/inventory/repositories/IInventoryRepository.java
+/Users/hvelasco/Desktop/microservices-parent/inventory-service/src/main/java/com/microservices/inventory/models/entities/Product.java

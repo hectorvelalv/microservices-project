@@ -1,0 +1,12 @@
+/Users/hvelasco/Desktop/microservices-parent/catalog-service/src/main/java/com/microservices/catalogApplication/models/entities/Product.java
+/Users/hvelasco/Desktop/microservices-parent/catalog-service/src/main/java/com/microservices/catalogApplication/models/dtos/ProductDto.java
+/Users/hvelasco/Desktop/microservices-parent/catalog-service/src/main/java/com/microservices/catalogApplication/mappers/ProductMapper.java
+/Users/hvelasco/Desktop/microservices-parent/catalog-service/src/main/java/com/microservices/catalogApplication/services/IProductService.java
+/Users/hvelasco/Desktop/microservices-parent/catalog-service/src/main/java/com/microservices/catalogApplication/CatalogApplication.java
+/Users/hvelasco/Desktop/microservices-parent/catalog-service/src/main/java/com/microservices/catalogApplication/services/ProductServiceImpl.java
+/Users/hvelasco/Desktop/microservices-parent/catalog-service/src/main/java/com/microservices/catalogApplication/exceptions/advices/ProductSkuNotFoundAdvice.java
+/Users/hvelasco/Desktop/microservices-parent/catalog-service/src/main/java/com/microservices/catalogApplication/controllers/ProductController.java
+/Users/hvelasco/Desktop/microservices-parent/catalog-service/src/main/java/com/microservices/catalogApplication/repositories/IProductRepository.java
+/Users/hvelasco/Desktop/microservices-parent/catalog-service/src/main/java/com/microservices/catalogApplication/exceptions/advices/ProductIdNotFoundAdvice.java
+/Users/hvelasco/Desktop/microservices-parent/catalog-service/src/main/java/com/microservices/catalogApplication/exceptions/ProductIdNotFoundException.java
+/Users/hvelasco/Desktop/microservices-parent/catalog-service/src/main/java/com/microservices/catalogApplication/exceptions/ProductSkuNotFoundException.java

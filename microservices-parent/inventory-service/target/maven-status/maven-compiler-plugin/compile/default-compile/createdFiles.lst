@@ -1,0 +1,13 @@
+com/microservices/inventory/InventoryApplication.class
+com/microservices/inventory/services/InventoryServiceImpl.class
+com/microservices/inventory/controllers/InventoryController.class
+com/microservices/inventory/mappers/AvailableProductMapperImpl.class
+com/microservices/inventory/models/entities/Product.class
+com/microservices/inventory/models/dtos/AvailableProductDto$AvailableProductDtoBuilder.class
+com/microservices/inventory/models/entities/Product$ProductBuilder.class
+com/microservices/inventory/repositories/IInventoryRepository.class
+com/microservices/inventory/mappers/AvailableProductMapper.class
+com/microservices/inventory/services/IInventoryService.class
+com/microservices/inventory/exceptions/ProductAvailableIdNotFoundException.class
+com/microservices/inventory/models/dtos/AvailableProductDto.class
+com/microservices/inventory/exceptions/advices/ProductAvailableIdNotFoundAdvice.class

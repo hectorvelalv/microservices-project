@@ -1,0 +1,14 @@
+com/microservices/product/models/dtos/ProductResponseDto$ProductResponseDtoBuilder.class
+com/microservices/product/models/dtos/ProductResponseDto.class
+com/microservices/product/services/ProductServiceImpl$1.class
+com/microservices/product/exceptions/ProductUniqueIdNotFoundException.class
+com/microservices/product/exceptions/advices/NotProductsInStockAdvice.class
+com/microservices/product/exceptions/advices/ProductUniqueIdNotFoundAdvice.class
+com/microservices/product/services/ProductServiceImpl$2.class
+com/microservices/product/ProductApplication.class
+com/microservices/product/services/IServiceImpl.class
+com/microservices/product/services/ProductServiceImpl.class
+com/microservices/product/controller/ProductController.class
+com/microservices/product/config/WebClientConfig.class
+com/microservices/product/exceptions/NotProductsInStockException.class
+com/microservices/product/services/ProductServiceImpl$3.class

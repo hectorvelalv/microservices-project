@@ -1,0 +1,10 @@
+/Users/hvelasco/Desktop/microservices-parent/product-service/src/main/java/com/microservices/product/ProductApplication.java
+/Users/hvelasco/Desktop/microservices-parent/product-service/src/main/java/com/microservices/product/config/WebClientConfig.java
+/Users/hvelasco/Desktop/microservices-parent/product-service/src/main/java/com/microservices/product/services/IServiceImpl.java
+/Users/hvelasco/Desktop/microservices-parent/product-service/src/main/java/com/microservices/product/controller/ProductController.java
+/Users/hvelasco/Desktop/microservices-parent/product-service/src/main/java/com/microservices/product/exceptions/NotProductsInStockException.java
+/Users/hvelasco/Desktop/microservices-parent/product-service/src/main/java/com/microservices/product/models/dtos/ProductResponseDto.java
+/Users/hvelasco/Desktop/microservices-parent/product-service/src/main/java/com/microservices/product/exceptions/advices/ProductUniqueIdNotFoundAdvice.java
+/Users/hvelasco/Desktop/microservices-parent/product-service/src/main/java/com/microservices/product/exceptions/ProductUniqueIdNotFoundException.java
+/Users/hvelasco/Desktop/microservices-parent/product-service/src/main/java/com/microservices/product/services/ProductServiceImpl.java
+/Users/hvelasco/Desktop/microservices-parent/product-service/src/main/java/com/microservices/product/exceptions/advices/NotProductsInStockAdvice.java

@@ -1,0 +1,15 @@
+com/microservices/catalogApplication/models/dtos/ProductDto.class
+com/microservices/catalogApplication/mappers/ProductMapperImpl.class
+com/microservices/catalogApplication/exceptions/ProductSkuNotFoundException.class
+com/microservices/catalogApplication/repositories/IProductRepository.class
+com/microservices/catalogApplication/models/dtos/ProductDto$ProductDtoBuilder.class
+com/microservices/catalogApplication/exceptions/ProductIdNotFoundException.class
+com/microservices/catalogApplication/CatalogApplication.class
+com/microservices/catalogApplication/models/entities/Product.class
+com/microservices/catalogApplication/exceptions/advices/ProductSkuNotFoundAdvice.class
+com/microservices/catalogApplication/models/entities/Product$ProductBuilder.class
+com/microservices/catalogApplication/controllers/ProductController.class
+com/microservices/catalogApplication/services/ProductServiceImpl.class
+com/microservices/catalogApplication/exceptions/advices/ProductIdNotFoundAdvice.class
+com/microservices/catalogApplication/mappers/ProductMapper.class
+com/microservices/catalogApplication/services/IProductService.class
