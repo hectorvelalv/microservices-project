@@ -1,0 +1,14 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: catalog-service
+  jpa:
+    hibernate:
+      ddl-auto: validate #create
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/catalog
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
