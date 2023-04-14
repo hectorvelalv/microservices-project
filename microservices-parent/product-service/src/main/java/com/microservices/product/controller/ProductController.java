@@ -1,20 +1,17 @@
 package com.microservices.product.controller;
 
-import com.microservices.product.exceptions.NotProductsInStockException;
 import com.microservices.product.exceptions.ProductSkuNotFoundException;
 import com.microservices.product.exceptions.ProductUniqueIdNotFoundException;
 import com.microservices.product.models.dtos.ProductResponseDto;
-import com.microservices.product.services.ProductServiceImpl;
+import com.microservices.product.services.ProductService;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import lombok.RequiredArgsConstructor;
-import org.slf4j.Logger;
 import org.springframework.cloud.circuitbreaker.resilience4j.Resilience4JCircuitBreakerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestOperations;
 
 import java.util.List;
 
@@ -22,8 +19,8 @@ import java.util.List;
 @RequestMapping("/productAPI")
 @RequiredArgsConstructor
 public class ProductController {
-    private final ProductServiceImpl productService;
-    private final Resilience4JCircuitBreakerFactory circuitBreakerFactory;
+    private final ProductService productService;
+//    private final Resilience4JCircuitBreakerFactory circuitBreakerFactory;
 
     @CircuitBreaker(name = "product-service", fallbackMethod = "fallback")
     @GetMapping("/getProductsByUid/{uid}")

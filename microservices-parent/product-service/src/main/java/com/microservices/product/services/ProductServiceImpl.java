@@ -15,13 +15,13 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class ProductServiceImpl {
+public class ProductServiceImpl implements ProductService {
     private final CatalogFeignClient catalogFeignClient;
     private final InventoryFeignClient inventoryFeignClient;
+    @Override
     public ProductResponseDto getProductByUid(String uid){
         try {
             CatalogResponseDto catalogResponseDto = catalogFeignClient.getProduct(uid);
-
             Integer inventoryResponseAvailable = getAvailable(uid);
             if(inventoryResponseAvailable == 0) throw new NotProductsInStockException();
 
@@ -32,6 +32,7 @@ public class ProductServiceImpl {
             throw new ProductUniqueIdNotFoundException();
         }
     }
+    @Override
     public List<ProductResponseDto> getProductsBySku(String sku){
         try {
             List<CatalogResponseDto> catalogResponseDtoList = catalogFeignClient.getProductsBySku(sku);
